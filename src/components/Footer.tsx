@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-dark text-cream px-6 py-12 md:px-12">
+    <footer aria-label="Footer" className="bg-dark text-cream px-6 py-12 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col gap-8">
 
         <div className="flex flex-wrap justify-between gap-8">
@@ -17,7 +17,7 @@ export default function Footer() {
             <p className="text-sm text-brown">Mon–Sat · 08:00–20:00</p>
           </div>
 
-          <div>
+          <div id="footer">
             <p className="text-xs uppercase tracking-widest text-gold mb-2">Follow</p>
             <a href="#" className="block text-sm text-brown hover:text-cream transition-colors">
               Instagram
