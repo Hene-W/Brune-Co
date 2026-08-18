@@ -2,7 +2,7 @@
 
 A fictional coffee shop landing page built to explore modern, animated UI patterns — from an interactive table reservation map to a terminal-style order ticket animation.
 
-**[Live demo →](vercel-url-here)**
+**[Live demo →](https://brune-co.vercel.app/)**
 
 ## Features
 
