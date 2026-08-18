@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-cream: #fbf6ee;
+  --color-dark: #3d2b1f;
+  --color-brown: #6b4630;
+  --color-gold: #d8a972;
+  --color-muted: #9a8672;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.4s ease-out both; }
+
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+.cursor-blink { animation: cursor-blink 1s step-end infinite; }
